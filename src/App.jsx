@@ -2,7 +2,8 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import EntradaTexto from "./components/EntradaTexto";
 
-// import Teorema from "./components/Teorema"
+import Teorema from "./components/Teorema"
+import App from "./components/Compe";
 
 // import estilo from "./components/estilo";
 
@@ -11,9 +12,9 @@ import EntradaTexto from "./components/EntradaTexto";
 export default () =>{
     return(
         <View >
-            <EntradaTexto/>
-            {/* <Teorema numero = {8} numero2 = {6}/> */}
-        
+            {/* <EntradaTexto/> */}
+            {/* <Teorema numero = {8} numero2 = {6}/>  */}
+            <App/>
         </View>
     )
 }
